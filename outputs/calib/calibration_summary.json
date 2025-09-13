@@ -1,0 +1,72 @@
+{
+  "model": "xgb",
+  "calibration_method": "sigmoid",
+  "cv_folds": 5,
+  "holdout_metrics_prob": {
+    "roc_auc": 0.7925619834710743,
+    "brier": 0.11784842468308358,
+    "log_loss": 0.39898673458555534
+  },
+  "holdout_metrics_thr_0.50": {
+    "threshold": 0.5,
+    "decision_rule": ">=",
+    "accuracy": 0.8701298701298701,
+    "precision": 0.8571428571428571,
+    "recall": 0.9818181818181818,
+    "f1": 0.9152542372881356,
+    "confusion_matrix": [
+      [
+        13,
+        9
+      ],
+      [
+        1,
+        54
+      ]
+    ],
+    "report": "              precision    recall  f1-score   support\n\n           0      0.929     0.591     0.722        22\n           1      0.857     0.982     0.915        55\n\n    accuracy                          0.870        77\n   macro avg      0.893     0.786     0.819        77\nweighted avg      0.878     0.870     0.860        77\n"
+  },
+  "holdout_metrics_thr_youden": {
+    "threshold": 0.6195923593179411,
+    "decision_rule": ">=",
+    "accuracy": 0.8701298701298701,
+    "precision": 0.8571428571428571,
+    "recall": 0.9818181818181818,
+    "f1": 0.9152542372881356,
+    "confusion_matrix": [
+      [
+        13,
+        9
+      ],
+      [
+        1,
+        54
+      ]
+    ],
+    "report": "              precision    recall  f1-score   support\n\n           0      0.929     0.591     0.722        22\n           1      0.857     0.982     0.915        55\n\n    accuracy                          0.870        77\n   macro avg      0.893     0.786     0.819        77\nweighted avg      0.878     0.870     0.860        77\n"
+  },
+  "target_precision": 0.87,
+  "threshold_for_target_precision": {
+    "meets_target": true,
+    "threshold": 0.7202858693031543,
+    "metrics": {
+      "threshold": 0.7202858693031543,
+      "decision_rule": ">",
+      "accuracy": 0.8051948051948052,
+      "precision": 0.8703703703703703,
+      "recall": 0.8545454545454545,
+      "f1": 0.8623853211009175,
+      "confusion_matrix": [
+        [
+          15,
+          7
+        ],
+        [
+          8,
+          47
+        ]
+      ],
+      "report": "              precision    recall  f1-score   support\n\n           0      0.652     0.682     0.667        22\n           1      0.870     0.855     0.862        55\n\n    accuracy                          0.805        77\n   macro avg      0.761     0.768     0.765        77\nweighted avg      0.808     0.805     0.806        77\n"
+    }
+  }
+}

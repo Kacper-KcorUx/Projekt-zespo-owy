@@ -1,0 +1,22 @@
+{
+  "logreg": {
+    "clf__C": 0.06672367170464207,
+    "clf__l1_ratio": 0.7851759613930136
+  },
+  "rf": {
+    "clf__max_depth": 12,
+    "clf__max_features": null,
+    "clf__min_samples_leaf": 2,
+    "clf__min_samples_split": 5,
+    "clf__n_estimators": 615
+  },
+  "xgb": {
+    "clf__colsample_bytree": 0.7283120259886944,
+    "clf__gamma": 2.0212944000653423e-07,
+    "clf__learning_rate": 0.011487613841748902,
+    "clf__max_depth": 6,
+    "clf__n_estimators": 702,
+    "clf__reg_lambda": 0.6991947034294091,
+    "clf__subsample": 0.9238004184558861
+  }
+}
